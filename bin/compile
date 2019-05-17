@@ -44,7 +44,7 @@ echo "export PATH=/app/vendor/ImageMagick-6.9.3-2/bin:\$PATH" >> $PROFILE_PATH
 echo "export LD_LIBRARY_PATH=/app/vendor/ImageMagick-6.9.3-2/lib:\$LD_LIBRARY_PATH" >> $PROFILE_PATH
 
 
-echo "-----> New, libraw-0.17.2"
+echo "-----> New18, libraw-0.17.2"
 mkdir -p "$BUILD_DIR/vendor/libraw-0.17.2"
 tar -xzf "$SOURCE_DIR/libraw-0.17.2.tar.gz" -C "$BUILD_DIR/vendor/libraw-0.17.2"
 echo "export PATH=/app/vendor/libraw-0.17.2:\$PATH" >> $PROFILE_PATH
@@ -54,11 +54,11 @@ echo "export LD_LIBRARY_PATH=/app/vendor/libraw-0.17.2:\$LD_LIBRARY_PATH" >> $PR
 BUILD_DIR="$1"
 TARGET_DIR="$BUILD_DIR/vendor/im"
 
-echo "-----> New, imagemagick-lib-18"
+echo "-----> New18, imagemagick-lib-18"
 mkdir -p "$BUILD_DIR/vendor/im"
 tar -xzf "$SOURCE_DIR/imagemagick-lib-18.tar.gz" -C "$BUILD_DIR/vendor/im"
 
-echo "-----> New, inkscape-lib-18"
+echo "-----> New18, inkscape-lib-18"
 mkdir -p "$BUILD_DIR/vendor/im"
 tar -xzf "$SOURCE_DIR/inkscape-lib-18.tar.gz" -C "$BUILD_DIR/vendor/im"
 
