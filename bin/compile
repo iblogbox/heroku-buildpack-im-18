@@ -66,29 +66,29 @@ tar -xzf "$SOURCE_DIR/imagemagick-lib-18.tar.gz" -C "$BUILD_DIR/vendor/im"
 echo "-----> Copying files to $TARGET_DIR"
 mkdir -p "$TARGET_DIR"
 
-# chmod +x "$SOURCE_DIR/anim_diff"
-# cp "$SOURCE_DIR/anim_diff" "$TARGET_DIR"
+chmod +x "$SOURCE_DIR/anim_diff"
+cp "$SOURCE_DIR/anim_diff" "$TARGET_DIR"
 
-# chmod +x "$SOURCE_DIR/cwebp"
-# cp "$SOURCE_DIR/cwebp" "$TARGET_DIR"
+chmod +x "$SOURCE_DIR/cwebp"
+cp "$SOURCE_DIR/cwebp" "$TARGET_DIR"
 
-# chmod +x "$SOURCE_DIR/dwebp"
-# cp "$SOURCE_DIR/dwebp" "$TARGET_DIR"
+chmod +x "$SOURCE_DIR/dwebp"
+cp "$SOURCE_DIR/dwebp" "$TARGET_DIR"
 
-# chmod +x "$SOURCE_DIR/gif2webp"
-# cp "$SOURCE_DIR/gif2webp" "$TARGET_DIR"
+chmod +x "$SOURCE_DIR/gif2webp"
+cp "$SOURCE_DIR/gif2webp" "$TARGET_DIR"
 
-# chmod +x "$SOURCE_DIR/JxrDecApp"
-# cp "$SOURCE_DIR/JxrDecApp" "$TARGET_DIR"
+chmod +x "$SOURCE_DIR/JxrDecApp"
+cp "$SOURCE_DIR/JxrDecApp" "$TARGET_DIR"
 
-# chmod +x "$SOURCE_DIR/JxrEncApp"
-# cp "$SOURCE_DIR/JxrEncApp" "$TARGET_DIR"
+chmod +x "$SOURCE_DIR/JxrEncApp"
+cp "$SOURCE_DIR/JxrEncApp" "$TARGET_DIR"
 
-# chmod +x "$SOURCE_DIR/vwebp"
-# cp "$SOURCE_DIR/vwebp" "$TARGET_DIR"
+chmod +x "$SOURCE_DIR/vwebp"
+cp "$SOURCE_DIR/vwebp" "$TARGET_DIR"
 
-# chmod +x "$SOURCE_DIR/webpmux"
-# cp "$SOURCE_DIR/webpmux" "$TARGET_DIR"
+chmod +x "$SOURCE_DIR/webpmux"
+cp "$SOURCE_DIR/webpmux" "$TARGET_DIR"
 
 chmod +x "$SOURCE_DIR/bpgdec"
 cp "$SOURCE_DIR/bpgdec" "$TARGET_DIR"
