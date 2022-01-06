@@ -107,7 +107,7 @@ echo "export PATH=/app/vendor/im:\$PATH" >> $PROFILE_PATH
 echo "export LD_LIBRARY_PATH=/app/vendor/im:\$LD_LIBRARY_PATH" >> $PROFILE_PATH
 
 
-
+:<<'END'
 echo "-----> Installing Ghostscript 9.16"
 BUILD_DIR=$1
 PACKAGE="https://s3.amazonaws.com/tgl.public/buildpacks/ghostscript/ghostscript.tgz"
@@ -119,7 +119,7 @@ curl $PACKAGE -s -o - | tar xzf - -C $LOCATION
 echo "-----> Building runtime environment for Ghostscript"
 mkdir -p $BUILD_DIR/.profile.d
 echo "export PATH=\"\$HOME/vendor/gs/bin:\$PATH\"" > $BUILD_DIR/.profile.d/ghostscript.sh
-
+END
 
 echo "-----> Installing Ghostscript 9.23"
 BUILD_DIR=$1
