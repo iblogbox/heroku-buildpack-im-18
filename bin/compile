@@ -24,7 +24,7 @@ install_dependency() {
     echo "-----> Installing $depname"
     echo "       Downloading: $tarball"
     mkdir -p $(dirname $cachepath)
-    curl --silent --show-error  -o $cachepath "$S3_BASE/$tarball"
+    curl -L --silent --show-error  -o $cachepath "$S3_BASE/$tarball"
   else
     echo "-----> Using cached $depname"
   fi
