@@ -10,7 +10,8 @@ CACHE_DIR=$2
 SOURCE_DIR="$(dirname $0)/../compiled"
 
 
-S3_BASE="https://s3-eu-west-1.amazonaws.com/heroku.repixl.com"
+#S3_BASE="https://s3-eu-west-1.amazonaws.com/heroku.repixl.com"
+S3_BASE="https://github.com/iblogbox/heroku-buildpack-im-18/raw/master/compiled"
 
 mkdir -p "$BUILD_DIR/vendor"
 
